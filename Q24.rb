@@ -4,9 +4,5 @@ users = [
         ]
 
 users.each do |user|
-  if user.include?(:age)
-    puts "OK"
-  else
-    puts "NG"
-  end
+    user.include?(:age) ? puts("OK") : puts("NG")
 end

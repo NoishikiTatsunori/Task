@@ -6,6 +6,6 @@ params = {
   email: "hoge@fuga.com"
 }
 
-params.each_key do |key|
-  puts "#{key}"
-end
+ puts params.keys
+
+

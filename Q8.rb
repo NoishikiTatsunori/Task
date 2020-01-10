@@ -1,2 +1,5 @@
 numbers = ["6", "5", "3", "7", "1"]
-p numbers.collect {|item| item.to_i }
+ arr = []
+ numbers.each do |new_numbers|
+   arr << new_numbers.to_i
+ end
