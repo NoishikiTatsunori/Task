@@ -1,7 +1,5 @@
 class User
 
-    attr_accessor :name, :age, :gender, :admin
-
     def initialize(**params)
         @name = params[:name]
         @age = params[:age]
